@@ -44,7 +44,7 @@
                 <div class="col-lg-12">
                     <div class="intro-text">
                         <h1 class="name">Vik Kalkat</h1>
-                        <span class="skills">Designer - Web Developer - Engineering Student</span>
+                        <span class="skills">Designer - Developer - Engineering Student</span>
                         <img src="img/icons/down.png" class="img-responsive main-scroll" alt="Scroll Down" style="margin:auto;">
                     </div>
                 </div>
@@ -53,9 +53,11 @@
     </header>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <div id="portfolio-anchor"></div>
+    <section class="desktop" id="portfolio">
         <div class="container-fluid">
-              <div class="row portfolio-row" style="height:500px;">
+
+              <div class="row portfolio-row" style="height:500px;" href="#portfolioModal1" data-toggle="modal">
                   <div class="col-sm-6 portfolio-item page-item1">
                   </div>
                   <div class="col-sm-6 portfolio-item" style="display: table; height: 500px; overflow: hidden; background-color:#383643">
@@ -63,14 +65,14 @@
                         <h2>IBuyer</h2>
                         <br>
                         <p class="project-description1">I was involved in the IBM Cognitive Build Challenge where I designed the interface for a shopping application that drives data from Watson Analytics API.</p>
-                        <img src="img/portfolio/iBuyer/watson.png" class="img-responsive" alt="iBuyer Mobile App Design" style="margin:auto;">
+                        <img src="img/portfolio/iBuyer/watson.png" class="img-responsive" alt="" style="margin:auto;">
                     </div>
-                </div>
-                <div href="#portfolioModal1" class="hover-item" data-toggle="modal">
-                </div>
+                  </div>
+                  <div href="#portfolioModal1" class="hover-item" data-toggle="modal">
+                  </div>
               </div>
 
-              <div class="row portfolio-row" style="height:500px; background-color:white;">
+              <div class="row portfolio-row" style="height:500px; background-color:white;" href="#portfolioModal2" data-toggle="modal">
                   <div class="col-sm-6 portfolio-item page-item2">
                   </div>
                   <div class="col-sm-6 portfolio-item" style="display: table; height: 500px; overflow: hidden;">
@@ -78,11 +80,11 @@
                         <h2>Evolv Fit Wear</h2>
                         <br>
                         <p class="project-description2">A clothing brand designed to convey a very important message, and to provide a passionate motivation.</p>
-                        <img src="img/portfolio/evolv/evolvLogo.png" class="img-responsive" alt="iBuyer Mobile App Design" style="margin:auto;">
+                        <img src="img/portfolio/evolv/evolvLogo.png" class="img-responsive" alt="" style="margin:auto;">
                     </div>
-                </div>
-                <div href="#portfolioModal2" class="hover-item" data-toggle="modal">
-                </div>
+                  </div>
+                  <div href="#portfolioModal2" class="hover-item" data-toggle="modal">
+                  </div>
               </div>
 
               <div class="row portfolio-row" style="height:500px;">
@@ -93,13 +95,33 @@
                         <h2>Merchandise Planning</h2>
                         <br>
                         <p class="project-description3">I designed a complete application for assortment planning, where organizing large amounts of data in a convenient interface was important.</p>
-                        <img src="img/portfolio/davinci/davinci_logo_small.png" class="img-responsive" alt="iBuyer Mobile App Design" style="margin:auto;">
+                        <img src="img/portfolio/davinci/davinci_logo_small.png" class="img-responsive" alt="" style="margin:auto;">
                     </div>
+                  </div>
+                  <div href="#portfolioModal3" class="hover-item" data-toggle="modal">
+                  </div>
+              </div>
+
+          </div>
+    </section>
+
+<!-- Portfolio Grid Section Mobile -->
+    <section class="mobile" id="portfolio">
+        <div class="container-fluid">
+          <div class="row">
+                <div class="col-sm-4 portfolio-item-mobile item1" href="#portfolioModal1" data-toggle="modal">
+                  <h2><span style="background-color:rgba(0,0,0,0.7); padding:2px;">IBuyer<small> Mobile App Design</small></span></h2>
                 </div>
-                <div href="#portfolioModal3" class="hover-item" data-toggle="modal">
+                <div class="col-sm-4 portfolio-item-mobile item2" href="#portfolioModal2" data-toggle="modal">
+                  <h2><span style="background-color:rgba(0,0,0,0.7); padding:2px;">Evolv Fit Wear<small> Apparel Brand</small></span></h2>
+                </div>
+                <div class="col-sm-4 portfolio-item-mobile item3" href="#portfolioModal3" data-toggle="modal">
+                  <h2><span style="background-color:rgba(0,0,0,0.7); padding:2px;">Merchandise Planning<br><small> Web App Design</small></span></h2>
                 </div>
             </div>
+        </div>
     </section>
+
 
     <!-- About Section -->
     <section class="success" id="about">
@@ -224,7 +246,7 @@
             <div class="container-fluid">
                 <div class="row">
                   <div class="col-lg-8 col-lg-offset-2">
-                      <h2 class="summary-content">Evolv Fitwear</h2>
+                      <h2 class="summary-content">Evolv Fit Wear</h2>
                       <br>
                       <p class="summary-content">For a long time I've been passionate about health and fitness and the sense of self-improvement that is acheived from this focus. Adminitngly, I felt that my core values were weaked during tough times filled with failure. Although difficult, I also feel that I was able to recover my strengths, and when I did, I wanted to asure myself that I train myself to never think doubtedly again. With the purpose to communicate the deeper values of fitness, I teamed with a friend who holds a similar mindset to establish a brand with a unique identity that strives for self-improvement amoung failures.</p>
                   </div>
@@ -265,8 +287,6 @@
                             <img src="img/portfolio/evolv/landingPage.png" class="img-responsive img-centered" alt="">
                             <br>
 
-
-
                         </div>
                           <ul class="list-inline item-details">
                               <li>Date:
@@ -290,9 +310,6 @@
                     </div>
                 </div>
             </div>
-
-
-
 
 
 
@@ -332,7 +349,6 @@
                             <img src="img/portfolio/davinci/result.png" class="img-responsive img-centered" alt="">
                             <br>
 
-
                         </div>
                           <ul class="list-inline item-details">
                               <li>Date:
@@ -346,129 +362,11 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+
+
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>

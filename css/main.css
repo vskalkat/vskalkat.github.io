@@ -66,14 +66,12 @@ header {
   background-image: url("vikDark.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   color: white;
 }
-.empty{
-  height:200px;
-}
 header .container {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 65%;
+  padding-bottom: 20%;
 }
 header img {
   display: block;
@@ -87,14 +85,14 @@ header .intro-text .name {
   font-size: 2em;
 }
 header .intro-text .skills {
-  font-size: 1.5em;
+  font-size: 16px;
   font-weight: 100;
   font-style: italic;
 }
 @media (min-width: 768px) {
   header .container {
     padding-top: 25%;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
   }
   header .intro-text .name {
     font-size: 3.75em;
@@ -116,10 +114,14 @@ section h2 {
 }
 @media (max-width: 767px) {
   section {
-    padding: 75px 0;
+    padding: 0px;
+  }
+  section h2{
+    font-size:16px;
+    font-weight:500;
   }
   section.first {
-    padding-top: 75px;
+    padding-top: 0px;
   }
 }
 #portfolio .portfolio-item {
@@ -476,33 +478,35 @@ div#maincontent {
   padding-right: 5em;
 }
 
+@media (min-width: 767px) {
+  .portfolio-row:hover{
+  -webkit-transform: translate(1em,0);
+    -moz-transform: translate(1em,0);
+    -o-transform: translate(1em,0);
+    -ms-transform: translate(1em,0);
+    transform: translate(1em,0);
+    transition-duration: 0.2s;
+  }
+  .portfolio-row .hover-item {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    z-index:100;
+    top:0px;
+    left:0px;
+    cursor:pointer;
+  }
+  .portfolio-row .hover-item:hover {
+    opacity: 0.4;
+    cursor: pointer;
+  }
+}
 
-.portfolio-row:hover{
--webkit-transform: translate(1em,0);
-  -moz-transform: translate(1em,0);
-  -o-transform: translate(1em,0);
-  -ms-transform: translate(1em,0);
-  transform: translate(1em,0);
-  transition-duration: 0.2s;
-}
-.portfolio-row .hover-item {
-  background-color: rgba(0, 0, 0, 0.7);
-  position: relative;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all ease 0.5s;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-  z-index:100;
-  top:0px;
-  left:0px;
-  cursor:pointer;
-}
-.portfolio-row .hover-item:hover {
-  opacity: 0.4;
-  cursor: pointer;
-}
 
 .main-scroll{
   cursor: pointer;
@@ -519,4 +523,33 @@ div#maincontent {
 
 .about-img{
   padding:25px;
+}
+
+@media (max-width: 767px) {
+  .desktop{
+    display: none;
+  }
+}
+@media (min-width: 767px) {
+  .mobile{
+    display: none;
+  }
+}
+
+.portfolio-item-mobile{
+  color:white;
+  text-align: center;
+  padding:100px 0px 100px 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-item-mobile.item1{
+    background-image: url('ibuyerArt.jpg');
+}
+.portfolio-item-mobile.item2{
+    background-image: url('evolvArt.png');
+}
+.portfolio-item-mobile.item3{
+    background-image: url('davinciArt.jpg');
 }
