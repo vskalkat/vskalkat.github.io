@@ -477,6 +477,17 @@ div#maincontent {
   padding-left: 5em;
   padding-right: 5em;
 }
+.page-item4{
+  background-image: url("yelpArt.jpg");
+  background-position: center;
+  background-size: cover;
+  height:500px;
+}
+.project-description4{
+  opacity: 0.7;
+  padding-left: 5em;
+  padding-right: 5em;
+}
 
 @media (min-width: 767px) {
   .portfolio-row:hover{
