@@ -1,524 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<head>
+<title>Vik Kalkat</title>
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="My Web Portfolio.">
-    <meta name="author" content="Vik Kalkat">
+<meta property="og:title" content="Vik kalkat">
+<meta property="og:description" content="Designer and Developer. Currently studying Systems Design Engineering at the University of Waterloo.">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Vik Kalkat: Designer and Developer">
+<meta property="og:image:width" content="50">
+<meta property="og:image:height" content="50">
 
-    <title>Vik Kalkat</title>
+<link href="./Vik_Kalkat_files/style2.css" rel="stylesheet" type="text/css">
+<link href="./Vik_Kalkat_files/style.css" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./Vik_Kalkat_files/ionicons.min.css">
+<link rel="stylesheet" href="./Vik_Kalkat_files/font-awesome.min.css">
+<link rel="stylesheet" href="./Vik_Kalkat_files/jquery.lazyloadxt.fadein.min.css">
+<script async="" src="./Vik_Kalkat_files/analytics.js"></script>
+<script src="./Vik_Kalkat_files/jquery.min.js"></script>
+<script src="./Vik_Kalkat_files/preloader.js" type="text/javascript"></script>
+<script src="./Vik_Kalkat_files/jquery.lazyloadxt.extra.js"></script>
+<script src="./Vik_Kalkat_files/tilt.jquery.min.js"></script>
 
-    <!-- Theme CSS -->
-    <link href="css/main.min.css" rel="stylesheet">
+<script>
+		$(document).ready(function () {
+			// Add smooth scrolling to all links
+			$("a").on('click', function (event) {
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+				// Make sure this.hash has a value before overriding default behavior
+				if (this.hash !== "") {
+					// Prevent default anchor click behavior
+					event.preventDefault();
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+					// Store hash
+					var hash = this.hash;
+
+					// Using jQuery's animate() method to add smooth page scroll
+					// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 800, function () {
+
+						// Add hash (#) to URL when done scrolling (default click behavior)
+						window.location.hash = hash;
+					});
+				} // End if
+			});
+		});
+	</script>
+
+<!-- <script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-90367920-1', 'auto');
+		ga('send', 'pageview');
+	</script> -->
 
 </head>
-
-<body id="page-top" class="index">
-<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
-
-    <!-- Navigation -->
+<body>
 
 
-    <!-- Header -->
-    <header>
-        <div class="container" id="maincontent" tabindex="-1">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-text">
-                        <h1 class="name">Vik Kalkat</h1>
-                        <span class="skills">Designer - Developer - Engineering Student</span>
-                        <img src="img/icons/down.png" class="img-responsive main-scroll" alt="Scroll Down" style="margin:auto;">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+	<!-- <div id="header_work">
+		<div class="new-navigation">
+			<nav role="navigation">
+				<div id="menuToggle">
+				<input type="checkbox">
+				<span></span>
+				<span></span>
+				<span></span>
+				<ul id="menu">
+					<li><a class="menu__link active" href="index.html">Home	</a></li>
+					<li><a class="menu__link" href="about.htm">About</a></li>
+				</ul>
+				</div>
+			</nav>
+		</div>
+	</div> -->
 
-    <!-- Portfolio Grid Section -->
-    <div id="portfolio-anchor"></div>
-    <section class="desktop" id="portfolio">
-        <div class="container-fluid">
+	<div class="wrapper-home">
+		<div class="container-home top">
+			<div class="description">
+				<h1 class="fade-in delay">Vik Kalkat</h1>
+				<p class="fade-in delay">
+					Hello! I study Systems Design Engineering at the University of Waterloo. I am currently looking for full time opportunities where I can work on building something beautiful with a passionate team.
+				</p>
+				<div class="section fade-in delay">
+					<a href="./Vik_Kalkat_files/resume/VikKalkat_resume.pdf" target="_blank">Resume</a>
+					<a href="mailto:vik.kalkat@gmail.com">Email</a>
+					<a href="https://www.linkedin.com/in/vik-kalkat-22211289/" target="_blank">LinkedIn</a>
+				</div>
+			</div>
+			<div class="image">
+				<img class="fade-in delay" src="./Vik_Kalkat_files/img/vik_cutout2.png" alt="">
+			</div>
+		</div>
+	</div>
 
-              <div class="row portfolio-row" style="height:500px;" type="button" href="#portfolioModal1">
-                  <div class="col-sm-6 portfolio-item page-item1">
-                  </div>
-                  <div class="col-sm-6 portfolio-item" style="display: table; height: 500px; overflow: hidden; background-color:#383643">
-                    <div class="caption caption-content text-center" style="display: table-cell; vertical-align: middle; color:white;">
-                        <h2>IBuyer</h2>
-                        <br>
-                        <p class="project-description1">I was involved in the IBM Cognitive Build Challenge where I designed the interface for a shopping application that drives data from Watson Analytics API.</p>
-                        <img src="img/portfolio/iBuyer/watson.png" class="img-responsive" alt="" style="margin:auto;">
-                    </div>
-                  </div>
-                  <div href="#portfolioModal1" class="hover-item" data-toggle="modal">
-                  </div>
-              </div>
+	<section class="yelp">
+		<div class="wrapper-home">
+			<div class="container-home above">
+				<div class="description">
+					<h2 class="fade-in delay">Yelp</h2>
+					<p class="fade-in delay">Improving Stickiness of the Yelp Mobile Application.</p>
+					<div class="section fade-in delay">
+						<a href="./yelp.htm" target="_self">Case Study</a>
+					</div>
+				</div>
+				<div class="image fade-in delay">
+					<img src="./Vik_Kalkat_files/img/iphone_yelp.png" class="lazy-loaded">
+				</div>
+			</div>
+		</div>
+	</section>
 
-              <div class="row portfolio-row" style="height:500px; background-color:white; display:none;" href="#portfolioModal2">
-                  <div class="col-sm-6 portfolio-item page-item2">
-                  </div>
-                  <div class="col-sm-6 portfolio-item" style="display: table; height: 500px; overflow: hidden;">
-                    <div class="text-center" style="display: table-cell; vertical-align: middle; color:black;">
-                        <h2>Evolv Fit Wear</h2>
-                        <br>
-                        <p class="project-description2">A clothing brand designed to convey a very important message, and to provide a passionate motivation.</p>
-                        <img src="img/portfolio/evolv/evolvLogo.png" class="img-responsive" alt="" style="margin:auto;">
-                    </div>
-                  </div>
-                  <div href="#portfolioModal2" class="hover-item" data-toggle="modal">
-                  </div>
-              </div>
+	<section class="ibuyer">
+		<div class="wrapper-home">
+			<div class="container-home above">
+				<div class="description">
+					<h2>Personalized Shopping using Watson</h2>
+					<p>Exploring user behaviour to cater a unique online shopping experience.</p>
+					<div class="section">
+					<a href="./ibuyer.htm" target="_self">Case Study</a>
+					</div>
+				</div>
+				<div class="image">
+					<img src="./Vik_Kalkat_files/img/iphone_ibuyer.png" class="lazy-loaded">
+				</div>
+			</div>
+		</div>
+	</section>
 
-              <div class="row portfolio-row" style="height:500px;">
-                  <div class="col-sm-6 portfolio-item page-item3">
-                  </div>
-                  <div class="col-sm-6 portfolio-item" style="display: table; height: 500px; overflow: hidden; background-color:#00639c;">
-                    <div class="caption caption-content text-center" style="display: table-cell; vertical-align: middle; color:white;">
-                        <h2>Merchandise Planning</h2>
-                        <br>
-                        <p class="project-description3">I designed a complete application for assortment planning, where organizing large amounts of data in a convenient interface was important.</p>
-                        <img src="img/portfolio/davinci/davinci_logo_small.png" class="img-responsive" alt="" style="margin:auto;">
-                    </div>
-                  </div>
-                  <div href="#portfolioModal3" class="hover-item" data-toggle="modal">
-                  </div>
-              </div>
-
-              <div class="row portfolio-row" style="height:500px;">
-                  <div class="col-sm-6 portfolio-item page-item4">
-                  </div>
-                  <div class="col-sm-6 portfolio-item" style="display: table; height: 500px; overflow: hidden; background-color:#ACD1D5;">
-                    <div class="caption caption-content text-center" style="display: table-cell; vertical-align: middle; color:white;">
-                        <h2>Yelp Product Pitch</h2>
-                        <br>
-                        <p class="project-description3">A feature proposal to make the Yelp app more 'sticky' for users.</p>
-                        <img src="img/portfolio/yelp/yelp_icon.png" class="img-responsive" alt="" style="margin:auto;">
-                    </div>
-                  </div>
-                  <div href="#portfolioModal4" class="hover-item" data-toggle="modal">
-                  </div>
-              </div>
-
-          </div>
-    </section>
-
-<!-- Portfolio Grid Section Mobile -->
-    <section class="mobile" id="portfolio">
-        <div class="container-fluid">
-          <div class="row">
-                <div class="col-sm-4 portfolio-item-mobile item1" href="#portfolioModal1" data-toggle="modal" style="cursor:pointer;">
-                  <h2><span style="background-color:rgba(0,0,0,0.7); padding:2px;">IBuyer<small> Mobile App Design</small></span></h2>
-                </div>
-                <div class="col-sm-4 portfolio-item-mobile item2" href="#portfolioModal2" data-toggle="modal" style="cursor:pointer;">
-                  <h2><span style="background-color:rgba(0,0,0,0.7); padding:2px;">Evolv Fit Wear<small> Apparel Brand</small></span></h2>
-                </div>
-                <div class="col-sm-4 portfolio-item-mobile item3" href="#portfolioModal3" data-toggle="modal" style="cursor:pointer;">
-                  <h2><span style="background-color:rgba(0,0,0,0.7); padding:2px;">Merchandise Planning<small> Web App Design</small></span></h2>
-                </div>
-            </div>
-        </div>
-    </section>
+	<section class="davinci">
+		<div class="wrapper-home">
+			<div class="container-home above">
+				<div class="description">
+					<h2 class="fade-in delay">daVinci</h2>
+					<p class="fade-in delay">Making data reading and updating easier in a data intensive environment.</p>
+					<div class="section fade-in delay">
+						<a href="merchandise.htm" target="_self">Case Study</a>
+					</div>
+				</div>
+				<div class="image fade-in delay">
+					<img src="./Vik_Kalkat_files/img/web_dashboard.png" class="lazy-loaded">
+				</div>
+			</div>
+		</div>
+	</section>
 
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 text-center">
-                  <img src="img/icons/design.png" class="img-responsive about-img" alt="" style="margin:auto;">
-                    <h4>Design.</h4>
-                    <p>Being a System's Design Engineering student, I am taught intensively to think about solving big problems. To design solutions, I enjoy executing design sprints to understand the problem, the users, and to creatively ideate design concepts.</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                  <img src="img/icons/code.png" class="img-responsive about-img" alt="" style="margin:auto;">
-                    <h4>Code.</h4>
-                    <p>I value being able to code as it allows me to put my designs into a functioning state. Having programming knowledge also allows me to better understand the abilities and limitations of web techonologies when I am thinking about ideas and designs.</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                  <img src="img/icons/play.png" class="img-responsive about-img" alt="" style="margin:auto;">
-                      <h4>Play.</h4>
-                      <p>I think this is the most important skill that anybody can have; the ability to play super hard! The more we see our work as a game, the more we can begin to think creatively and less stressfully about the task, and that's why I try my best to have fun with everything I do.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Thanks for visiting!
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
+	<div class="wrapper" style="margin-top:80px; margin-bottom: 80px;">
+		<h1 class="section-sub-subheader case-study">Experience</h1>
+		<div class="experience-container">
+			<div class="experience-list">
+				<p class="section-list-item">
+					<span class="section-list-item">Big Bridge Technologies</span>
+					Software Engineer
+				</p>
+				<p class="section-list-item">
+					<span class="section-list-item">Clearbridge Mobile</span>
+					UI/UX Designer
+				</p>
+				<p class="section-list-item">
+					<span class="section-list-item">daVinci Planning</span>
+					UI/UX Designer
+				</p>
+				<p class="section-list-item">
+					<span class="section-list-item">IBM</span>
+					Software Developer
+				</p>
+				<p class="section-list-item">
+					<span class="section-list-item">Orbis Communications</span>
+					Software Developer
+				</p>
+				<p class="section-list-item">
+					<span class="section-list-item">MedAvail Technologies</span>
+					Quality Assaurance
+				</p>
+			</div>
+			<div class="experience-list">
+				<p class="section-list-item">
+					<span class="section-list-item">Waterloo, Canada</span>
+					May - Sept 2018
+				</p>
+				<p class="section-list-item">
+					<span class="section-list-item">Toronto, Canada</span>
+					Sept - Dec 2017
+				</p>
+				<p class="section-list-item">
+					<span class="section-list-item">Toronto, Canada</span>
+					Jan - May 2017
+				</p>
+				<p class="section-list-item">
+					<span class="section-list-item">Ottawa, Canada</span>
+					Jan - May 2016
+				</p>
+				<p class="section-list-item">
+					<span class="section-list-item">Hamilton, Canada</span>
+					Sept - Dec 2014
+				</p>
+				<p class="section-list-item">
+					<span class="section-list-item">Mississauga, Canada</span>
+					Jan - May 2014
+				</p>
+			</div>
+		</div>
+		<h1 class="section-sub-subheader case-study">Skills</h1>
+		<p class="section-subheader about-me">Design</p>
+		<div class="skills-container closer">
+			<ul class="skills-list">
+				<li class="section-list-item">Sketch</li>
+				<li class="section-list-item">Invision</li>
+			</ul>
+			<ul class="skills-list middle-column">
+				<li class="section-list-item">Illustrator</li>
+				<li class="section-list-item">Photoshop</li>
+			</ul>
+			<ul class="skills-list">
+				<li class="section-list-item">Zepplin</li>
+				<li class="section-list-item">AfterEffects</li>
+			</ul>
+		</div>
+    <p class="section-subheader about-me">Process</p>
+    <div class="skills-container closer">
+      <ul class="skills-list">
+        <li class="section-list-item">User experience</li>
+        <li class="section-list-item">Interaction design</li>
+        <li class="section-list-item">Storyboarding</li>
+      </ul>
+      <ul class="skills-list middle-column">
+        <li class="section-list-item">Feature Specifications</li>
+        <li class="section-list-item">Wireframing</li>
+        <li class="section-list-item">Prototyping</li>
+      </ul>
+      <ul class="skills-list">
+        <li class="section-list-item">Usability testing</li>
+        <li class="section-list-item">Launch</li>
+        <li class="section-list-item">Performance Validation</li>
+      </ul>
     </div>
+		<p class="section-subheader about-me">Software</p>
+		<div class="skills-container closer">
+			<ul class="skills-list">
+				<li class="section-list-item">HTML5</li>
+				<li class="section-list-item">CSS3</li>
+				<li class="section-list-item">Bootstrap</li>
+			</ul>
+			<ul class="skills-list middle-column">
+				<li class="section-list-item">Angular.js</li>
+				<li class="section-list-item">jQuery</li>
+				<li class="section-list-item">React</li>
+			</ul>
+			<ul class="skills-list">
+				<li class="section-list-item">Python</li>
+				<li class="section-list-item">Java</li>
+				<li class="section-list-item">MySQL</li>
+			</ul>
+		</div>
+	</div>
 
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                  <div class="col-lg-8 col-lg-offset-2">
-                      <h2 class="summary-content">iBuyer</h2>
-                      <br>
-                      <p class="summary-content">During my internship at IBM, I involved myself in the Cognitive Build Challenge. Our team of 6 members were tasked to design an application that presents useful information drived by the Watson Analytics API. Watson Analytics is a smart data discovery service available on the cloud that guides data exploration, automates predictive analytics and enables efortless dashboard and infographic creation. Using the data served by this intelligent tool, we are better able to make confident decisons regarding a set of data.</p>
-                  </div>
-                  <div class="col-lg-12" style="padding:0px; margin:0px; margin-top:30px;">
-                      <img src="img/portfolio/iBuyer/result.png" class="img-responsive img-centered" alt="">
-                  </div>
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-
-                            <h3>My Role</h3>
-                            <p>The team of 6 members consisted of front end developers, back end developers, business oriented members, and two UI/UX designers - one of which was me! My focus for this project was to design the mobile application interface with requirements that were discussed by the whole team collaboratively.</p>
-                            <br>
-
-                            <h3>Problem Space</h3>
-                            <small>Frusturations in online shopping.</small>
-                            <p>Shopping becomes super frusturating when you've scanned through 20 pages of an online store and you haven't come across a single product that tickles your interest. After that, the only thing that might be felt if regret, especially when you probabaly should've been getting other important work done in this time and online shopping was only suppose to be a quick source of happiness!</p>
-                            <br>
-
-                            <h3>Research</h3>
-                            <small>Why is it frusturating?</small>
-                            <p>With online shoppers within our project team itself, the research subjects were easy to obtain. We analyzed team members as they searched their favourite online stores with a "think aloud" approach. As a result, we were able to identify the pain points during the process:
-                              <ul>
-                                <li>On average, user was interested in a product after searching three pages of items.</li>
-                                <li>User feel that majority of the products perform poorly at aiming to their unique personalities.</li>
-                                <li>Time taken to find a product exceeds the time that the user allocated for their shopping visit.</li>
-                                <li>Some users never even found a prodct that they liked during their recorded shopping trip.</li>
-                              </ul>
-                            </p>
-                            <br>
-
-                            <h3>Persona</h3>
-                            <small>Creating a fake user to help us better understand who to design for.</small>
-                            <img src="img/portfolio/iBuyer/persona.png" class="img-responsive img-centered" alt="">
-                            <br>
-
-                            <h3>Solution</h3>
-                            <small>A Store Just for the User.</small>
-                            <p>We built a shopping application that performs deep learnig on each unique user. By collecting data from certain activities in the user's social media, Watson Analytics is able to analyze this data and determine the user's interests in a few different categories: Sports, Movies, Health, and Education. More specificly, each of these categories can be taken a step deeper by the user to see which of their activties in the past have impacted their persoanlity results. The result of this is an online store that collects catered products from multiple vendors into one place. This saves time from browsing through countless pages, and highly improves the success of the mobile shopping visit.</p>
-                            <img src="img/portfolio/iBuyer/introPic.png" class="img-responsive img-centered" alt="">
-
-                        </div>
-                          <ul class="list-inline item-details">
-                              <li>Date:
-                                  <strong>March 2016</strong>
-                              </li>
-                              <li>Service:
-                                  <strong>Mobile App Design</strong>
-                              </li>
-                          </ul>
-                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                  <div class="col-lg-8 col-lg-offset-2">
-                      <h2 class="summary-content">Evolv Fit Wear</h2>
-                      <br>
-                      <p class="summary-content">For a long time I've been passionate about health and fitness and the sense of self-improvement that is acheived from this focus. Adminitngly, I felt that my core values were weaked during tough times filled with failure. Although difficult, I also feel that I was able to recover my strengths, and when I did, I wanted to asure myself that I train myself to never think doubtedly again. With the purpose to communicate the deeper values of fitness, I teamed with a friend who holds a similar mindset to establish a brand with a unique identity that strives for self-improvement amoung failures.</p>
-                  </div>
-                  <div class="col-lg-12 desktop" style="padding:0px; margin:0px; margin-top:30px;">
-                    <video autoplay loop>
-                      <source src="SmokeyIntro.mp4">
-                    </video>
-                  </div>
-                  <div class="col-lg-12 mobile" style="padding:0px; margin:0px; margin-top:30px;">
-                      <img src="img/portfolio/evolv/main.jpg" class="img-responsive img-centered" alt="">
-                  </div>
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-
-                            <h3>The Vision</h3>
-                            <p>The aim of this project is to convince individuals that failure is not a bad thing. We set to accomplish this by constructing a brand that is chracterized by power, strength, will, and more importantly that any other trait, the brand is characterised by failures. As a beginning step, we thought about Batman; a hero characterised with strengths that were build by his many downfalls. This type of literature seen in Batman can be looked at as a role model for Evolv. </p>
-                            <br>
-
-                            <h3>Logo Design</h3>
-                            <p>Believe me, there were hundreds of sketches before I came up with these.</p>
-                            <img src="img/portfolio/evolv/logos.png" class="img-responsive img-centered" alt="">
-                            <br>
-
-                            <h3>Product Design</h3>
-                            <p>Using blank t-shirt templates, we fombled with various tshirt designs on Photoshop. Eventually, we came up with something like this.</p>
-                            <img src="img/portfolio/evolv/productDesign.png" class="img-responsive img-centered" alt="">
-                            <br>
-
-                            <h3>Personalized Touch</h3>
-                            <p>Since this brand focuses on a very deep level with the user, namely their personal performance and development, I felt that it was almost mandatory to make users feel significant. Every package holds a message personalized to the user.</p>
-                            <img src="img/portfolio/evolv/personalization.png" class="img-responsive img-centered" alt="">
-                            <br>
-
-                            <h3>Packaging Experience</h3>
-                            <p>My biggest focus was to make every part of this brand memorable, and I acheived this by making the little things stand out. The first impression of a product is made during the unpackaging of the product. We felt that it was important to get this part right, so we designed product packaging that stood out from other fitness clothing retailors.</p>
-                            <img src="img/portfolio/evolv/packaging.png" class="img-responsive img-centered" alt="">
-                            <br>
-
-                            <h3>Landing Page</h3>
-                            <p>The online store for Evolv Fit Wear. One of the challenges I had with creating the design for this page was that we started off with selling only three items. As a result, following a standard online store design with a separate products page wouldn't work for us. So, I made the landing page itself more dominant with the content, and now the user can browse all items with minimal navigation steps. Also, a cool way we presented our products was by making each of them a segment of a journey. One product represents the beginning of a journey, the failure. Another product represents the training phase, where work is put in to correct the failures. And last but not least, our third product symbolizes success and evolution. The designs also resemble these aspects.</p>
-                            <img src="img/portfolio/evolv/landingPage.png" class="img-responsive img-centered" alt="">
-                            <br>
-
-                        </div>
-                          <ul class="list-inline item-details">
-                              <li>Date:
-                                  <strong>December 2016</strong>
-                              </li>
-                              <li>Service:
-                                  <strong>Product Design, Web Design, Company Branding</strong>
-                              </li>
-                          </ul>
-                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
+	<footer>
+		<hr style="opacity:0.2;">
+		<div class="footer-home">
+			<h1>Contact</h1>
+			<p>Say Hello at
+				<a href="mailto:vik.kalkat@gmail.com">vik.kalkat@gmail.com</a> or send me a connection request on
+				<a href="https://www.linkedin.com/in/vik-kalkat-22211289/" target="_blank">LinkedIn</a>
+			</p>
+		</div>
+	</footer>
 
 
 
-            <div class="container-fluid">
-                <div class="row">
-                  <div class="col-lg-8 col-lg-offset-2">
-                      <h2 class="summary-content">Merchandise Planning</h2>
-                      <br>
-                      <p class="summary-content">My most recent internship was as a UI/UX Designer at daVinci-retail; producer of assortment planning software for retailors in the fashion/clothing industry.</p>
-                  </div>
-                  <div class="col-lg-12" style="padding:0px; margin:0px; margin-top:30px;">
-                      <img src="img/portfolio/davinci/main.png" class="img-responsive img-centered" alt="">
-                  </div>
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-
-                            <h3>My Role</h3>
-                            <p>As the lead designer for daVinci, I was tasked to design the Next Generation Assortment Planning tool as the company transitioned from downloadable software to creating their software as a web application. Aside from the assortment planning, I also designed the company's ticketing system where customers can report issues with their product.</p>
-                            <br>
-
-                            <h3>The Client</h3>
-                            <p>One of the big challenges I faced was that I had to design one application for various clients with different needs. In other words, I was not always given a clear set of user requirements. The user requirements could rather be considered a "dynamic variable" in this case. My approach to this challenge was to design the application as customizable as possible. The user is given a standard view, but has the option to customize parts of the application to suit their own process.</p>
-                            <br>
-
-                            <h3>Mockups/Prototypes</h3>
-                            <p>I started by presenting a few different layout formats to the business team. Preference was given to the "Master-Detail" layout pattern. This pattern consists of a main area, the Master area, where an overview of all data items are viewed. To view deeper level information for a specific item in the Master area, a Detail panel presents details for the selected item. The Master-Detail is a great design pattern for the Merchandise Planning application because it provides an efficient way to navigate large data sets. At any given time, the screen space is only populated with the information that the user is interested in. As a result, scanability is improved, as well as the user's ability to focus on their areas of interest.</p>
-                            <img src="img/portfolio/davinci/mockup.png" class="img-responsive img-centered" alt="">
-                            <br>
-
-                            <h3>Flow Chart</h3>
-                            <p>The flow chart describes the usage and outcomes for each functionality on the user interface. This planning application is very complex and entails a large number of functions. For such a case, a separate flow chart was created for each screen of the application. This allows cleaninless and better readibility of the context. Below is just one flowchart for the home screen of the application.</p>
-                            <img src="img/portfolio/davinci/flowchart.png" class="img-responsive img-centered" alt="">
-                            <br>
-
-                            <h3>Final Design</h3>
-                            <p>Although no design is final due to constant changes in user needs, we can temporarily call this the final design. Hooray for the iterative design process!</p>
-                            <img src="img/portfolio/davinci/result.png" class="img-responsive img-centered" alt="">
-                            <br>
-
-                        </div>
-                          <ul class="list-inline item-details">
-                              <li>Date:
-                                  <strong>April 2017</strong>
-                              </li>
-                              <li>Service:
-                                  <strong>Web App Design</strong>
-                              </li>
-                          </ul>
-                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
+	<script src="./Vik_Kalkat_files/tilt.jquery.min(1).js"></script>
+	<script src="./Vik_Kalkat_files/main.js"></script>
 
 
+	<script>
+			$('#header_work #navigation li:nth-child(1) a').css({
+				"color": '#222222'
+			});
+			$('.js-tilt').tilt({
+				maxTilt: 20,
+				perspective: 300,
+				scale: 1,
+				easing: "cubic-bezier(.03,.98,.52,.99)",
+				speed: 5000,
+				transition: true,
+			})
+	</script>
 
-            <div class="container-fluid">
-                <div class="row">
-                  <div class="col-lg-8 col-lg-offset-2">
-                      <h2 class="summary-content">Yelp Product Pitch</h2>
-                      <br>
-                      <p class="summary-content">As part of a design challenge submission for Yelp, I was tasked to present a pitch to increase the stickiness of the Yelp app.</p>
-                      <p class="summary-content"><small>Stickiness of an app refers to its ability to keep visitors on the app once they have navigated there or to encourage visitors to return frequently.</small></p>
-                  </div>
-                  <div class="col-lg-12" style="padding:0px; margin:0px; margin-top:30px;">
-                      <img src="img/portfolio/yelp/main.png" class="img-responsive img-centered" alt="">
-                  </div>
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-
-                            <h3>Problem / Opportunity</h3>
-                            <p>Yelp is commonly used for its review system to easily find new places to eat. However, trying a new restaurant is not something done on a daily basis, and thus the number of times users visit the app becomes limited. While users do not try new places every day, they do still need to eat and most of the time they have a few “go to” places which are close to their location. Since Yelp holds a valuable reputation for initiating good eating experiences, the app has the opportunity to increase stickiness by analyzing other user needs in the eating space to determine what services can be added that would be more frequently desired. After performing the assessments shown below, it is seen that a strong solution is to implement a feature that allows users to easily contact their friends when they are going to eat. This will be a popular feature because people use food as an opportunity to spend time with their friends, and as a way to socialize; that is, people do not like eating alone.</p>
-                            <br>
-
-                            <h3>Needs Assessment</h3>
-                            <strong>Young adults (18-34)</strong>
-                            <p>According to Yelp’s factsheet, 36% of users fall within the age range of 18-34, making this a good population to study when developing the new feature. (Due to time and budget constraints, other age groups were not investigated.) This age group consists of people who have strong social lives and also busy work schedules. User interviews expressed that grabbing a meal with friends is one of the most popular and desired activities for socializing. However, the problem they experience is that it is difficult to make successful plans with others when their unpredictable schedule finally allows them to eat.</p>
-                            <br>
-
-                            <h3>Feature Objectives & Solution</h3>
-                            <small>To make the feature a viable solution for the provided problem space, it must succeed in achieving the target user’s ultimate goal. As well, it must be of a profitable use for the business.</small>
-                            <br>
-                            <ul>
-                              <li>Make it easy for users to eat with their friends</li>
-                              <li>Make Yelp app more sticky by addressing a more frequent user need as identified</li>
-                              <li>Integrate the feature seamlessly into the existing workflow</li>
-                            </ul>
-                            <br>
-
-                            <strong>Friends Finder</strong>
-                            <p>The presented feature encourages and makes it easier for users to share a meal with friends on their Yelp list. Users are informed of the distance between them and nearby friends (max 5km away from the user), and the distance between a particular restaurant and nearby friends (max 5km away from the restaurant). Being able to see who is nearby at any given time creates a dynamic selection of friends to invite at the time of when the user him/herself is looking to get food. If a user is interested in eating with a selected friend, they could use Yelp’s already existing chat feature to start a conversation and meet up. Equally as importantly, users are greatly encouraged to visit the Yelp app much more often because this feature provides use for any time that a user needs to eat, not only when a user wants to eat some where new. In a scenario where a user orders food for 3/3 of their main meals a day, the user may open the app 3 times in a single day to see who they can invite. Leveraging the existing chat feature also makes the app sticky because users will keep going back to the app to check and reply to messages.
-                            </p>
-                            <br>
-                            <p>
-                              The flow shown below illustrates a scenario that would occur when a user wants to enjoy a meal at a chosen restaurant with a friend. This gives us a good idea of where the feature would integrate into the existing workflow.
-                            </p>
-                            <img src="img/portfolio/yelp/userflow.png" class="img-responsive img-centered" alt="" style="padding:50px;">
-
-                            <h3>Existing Market Research</h3>
-                            <p>
-                              A similar feature was released by the mobile application “Snapchat,” on June 20 2017, called “Snap Maps,” in attempt to drive greater engagement on the app. Snap Project Designer, Jack Brody, says about the feature that “This map isn't about where am I, it's about where are my friends and what are they up to?” Friends Finder for Yelp holds a similar objective, but tailored for the experience of enjoying great food. The graph below shows Snapchat having a 10% increase in popularity from Spring 2016 - Fall 2016. From Fall 2016 - Spring 2017, Snapchat’s popularity only increases by 4%. This is thought to have been caused by Instagram’s adoption of Snapchat’s popular “Stories” feature, likely causing a loss in retention for Snapchat. After releasing the “Snap Maps” feature in July 2017, the Snapchat’s popularity inclines again in Spring 2017 - Fall 2017 having an increase of 9%. Some users showed concern in using this feature because they feel unsafe sharing their location with other people at a high accuracy. Articles posted by Snapchat users outlined that they felt like they are being watched by other users, and by Snap Inc., all the time. Therefore, when implementing a location based feature, we need to create a good balance between offering feature effectiveness and showing too much location based detail.
-                            </p>
-                            <img src="img/portfolio/yelp/competitor_data.png" class="img-responsive img-centered" alt="" style="padding:25px;">
-                            <br>
-
-                            <h3>Design</h3>
-                            <p>
-                              The relative location of friends is something that has a high rate of variability so the user must be able to access it easily to see updated information. Easily accessible features are better adopted, and as a result the business goal of making the app more sticky is better achieved. To ease learnability, I looked at common designs that users are familiar with; this makes it easy to learn the feature because users apply their experiences from similar occurrences in other apps. Chat bubbles are a common element that shows users who they are interacting with, and alerts them of new messages. Slight change to this design to clearly convey the metric as a unit of distance makes it an effective solution for for our design problem.
-                            </p>
-                            <img src="img/portfolio/yelp/chat_icon.png" class="img-responsive img-centered" alt="" style="padding:25px;">
-                            <br>
-                            <br>
-
-                            <p>
-                              From the considered use cases of this feature, it proves to be useful at two areas inside the app:
-                            </p>
-                              <img src="img/portfolio/yelp/design_screens.png" class="img-responsive img-centered" alt="" style="padding:25px;">
-                            <br>
-
-                            <h3>Implementation</h3>
-                            <p>
-                              The proposed feature offers quick implementation for both design and development teams. The design of the existing app is impacted very slightly because the new feature fits into the current app. The flow of current user scenarios is not severely altered either. Front end development also requires minimal work because existing elements do not need to be restructured to account for the added feature. Also, the proposed feature leverages the already existing chat in the app, greatly reducing workload. Location sharing of up to a 5km radius needs to be implemented between users who are on each other’s Yelp friend list.
-                            </p>
-                            <p>
-                              <strong>Android</strong>
-                              <br>
-                              To request user information on Android, developers would have to add ACCESS_COARSE_LOCATION and ACCESS_FINE_LOCATION permissions to the AndroidManifest.yml file. To access the user’s location, the developer needs to use the LocationManager class.
-                              <br>
-                              <strong>iOS</strong>
-                              <br>
-                              To request user information on the iOS platform developers would have to request the Location Services permission. The location permission dialog will appear when the developer inherits CLLocationManagerDelegate and requests information from the CLLocationManager.
-                            </p>
-                            <br>
-
-                            <h3>Challenges</h3>
-                            <p>
-                              Location settings create challenges for all apps because they consume a lot of processing power and are thus heavy on the device’s battery life. As a result, many users leave their location settings off and this can cause the location metric shown in “Friends Finder” to be outdated when a user looks at it. A potential solution is to refresh the location only while the user user is in the app. This is a reasonable compromise because if the person is not in the app, they probably are not looking to find a friend to eat with and thus do not need this feature to be active at such times.
-                            </p>
-                            <br>
-
-                            <h3>Performance Evaluation</h3>
-                            <p>
-                              The goal of “Friends Finder” is to further improve the eating experience of users by not only helping them find great places, but also great company to enjoy those places with. To evaluate how closely the proposed feature is meeting the defined objectives, the following metrics will be measured:
-                              <ul>
-                                <li>Increase in number of messages sent through Yelp chat.</li>
-                                <li>Percentage turn over rate of users meeting up after having a chat in Yelp’s app.</li>
-                                <li>Number of chat conversations initiated from a restaurant page.</li>
-                              </ul>
-                            </p>
-                            <br>
-
-                        </div>
-                          <ul class="list-inline item-details">
-                              <li>Date:
-                                  <strong>June 2017</strong>
-                              </li>
-                              <li>Service:
-                                  <strong>Product Design</strong>
-                              </li>
-                          </ul>
-                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/main.min.js"></script>
-
-</body>
-
-</html>
+</body></html>
