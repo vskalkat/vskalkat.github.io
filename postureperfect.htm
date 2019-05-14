@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" content="text/html; charset=UTF-8">
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134497442-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-134497442-1');
+  </script>
+  
+  <title>Vik Kalkat</title>
+  <meta name="Resource-type" content="Document">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Vik kalkat">
+  <meta property="og:description" content="Designer and Developer. Currently studying Systems Design Engineering at the University of Waterloo.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Vik Kalkat: Designer and Developer">
+  <meta property="og:image:width" content="50">
+  <meta property="og:image:height" content="50">
+
+  <link href="./Vik_Kalkat_files/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="./Vik_Kalkat_files/style2.css">
+  <link rel="stylesheet" href="./robinhood_files/ionicons.min.css">
+  <link rel="stylesheet" href="./robinhood_files/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./robinhood_files/MyFontsWebfontsKit.css">
+</head>
+
+<body>
+
+  <div class="hero-title robinhood">
+    <h1 class="robihood-title">Providing Novice Gym-goers with Real-time Form Assessment for Safer Workouts.</h1>
+  </div>
+  <img src="./Vik_Kalkat_files/img/pp_poster.jpg" class="hero-image" alt="Posture Perfect Header Image">
+
+    <div class="project_container">
+    <h1>Background/Motivation</h1>
+    <p>
+      The public health and fitness industry is a large market, raking in the following annual figures:
+      <br><br>
+      <div>
+         <table>
+           <tr style="font-size:16px;">
+            <td><h3>GLOBAL MARKET</h3></td> 
+            <td><h3>USA</h3></td>
+           </tr>
+           <tr style="font-size:38px;">
+            <td><h3 style="color:#3b7bd6;">$87.2</h3></td> 
+            <td><h3 style="color:#3b7bd6;">$27.6</h3></td>
+           </tr>
+           <tr style="font-size:12px;">
+            <td>
+              Billion (USD) <br>
+              <h3 style="font-size:14px;">Revenue</h3>
+            </td> 
+            <td>
+              Billion (USD) <br>
+              <h3 style="font-size:14px;">Revenue</h3>
+            </td> 
+           </tr>
+           <tr><td></td><td></td></tr>
+           <tr><td></td><td></td></tr>
+           <tr style="font-size:38px;">
+            <td><h3 style="color:#3b7bd6;">+2.6%</h3></td> 
+            <td><h3 style="color:#3b7bd6;">+7.2%</h3></td>
+           </tr>
+           <tr style="font-size:14px;">
+            <td><h3>Growth rate</h3></td> 
+            <td><h3>Growth rate</h3></td>
+           </tr>
+         </table>
+      </div>
+    </p>
+
+    <p>
+      Resistance training offers numerous health benefits, including the lowering of high blood pressure, increased metabolic rate, reduced risk of osteoperosis, and reduced anxiety and mood instabilities. However, the unsafe execution of resistance training can bring forth the possibility of uninvited injuries to the body, blocking the user from not only being able to continue pursuing health related goals but even the inability to execute daily activity. To put numbers to the matter, the following rate of injuries were recorded as a result of free weighted exercise:
+    </p>
+    <img src="./Vik_Kalkat_files/img/pp_injuries.png" class="center-image inline-image" alt="971 recorded emergency room visits between 1990 to 2007.">
+  </div>
+
+  <div class="project_container">
+    <h1>Problem</h1>
+    <p>
+      Self-critiquing weightlifting form is a problem for novice gym-goers because there is a lack of convenient feedback. 
+    </p>
+  </div>
+
+
+  <div class="robinhood-container project_container">
+    <h1>User Research</h1>
+    <p>
+      A Google Survey was conducted to gather an understanding of how gym-goers of varying experience levels currently assess their form. In addition, it was useful to gather an understanding of common injuries that users have experienced and their relative causes. Data recieived from 105 respondents was analyzed to derive useful insights.
+    </p>
+      <p>
+      The graph below illustrates how confident a user of a specified experience level feels depending on which assessment technique they use. Most beginners simply rely on looking at a mirror and how they feel during an exercise. This can be problematic for beginners who lack knowledge on how an exercise <span style="font-style: italic;">should</span> feel when performed correctly.
+    </p>
+    <img src="./Vik_Kalkat_files/img/methods_by_exoerience.png" class="center-image inline-image" alt="Data">
+
+    <p>
+      The below graph communicates users' confidence level for a variety of form assessment techniques. Interestingly, beginners feel least-confident when assessing their form with techniques that are most readily available to them; this confirms the existence of the problem of focus.
+    </p>
+    <img src="./Vik_Kalkat_files/img/confidence_per_method.png" class="center-image inline-image" alt="Data">
+
+    <p>
+      The above data suggests that novice gym-goers do not readily have access to effective feedback techniques that make them feel confident with their lifting form. The level of confidence should be improved for feedback techniques that they can easily access when visting the gym.
+    </p>
+  </div>
+
+  <div class="robinhood-container project_container">
+    <h1>Objectives</h1>
+    <p>
+      <ol>
+        <li>Educate user on proper lifting techniques for a selected exercise.</li>
+        <li>Provide real-time feedback on lifting technique.</li>
+        <li>Display clear instructions for correcting improper form whend detected.</li>
+        <li>Generate detailed analytics and tips for improving form in post workout analysis.</li>
+        <li>Increase motivation by providing sense of self-efficacy and positive feedback.</li>
+        <li>Provide natural experience as if using a traditional mirror.</li>
+        <li>Minimize cognitive load of device to reduce mental workload.</li>
+      </ol>
+    </p>
+  </div>
+
+  <div class="robinhood-container project_container">
+    <h1>User Persona</h1>
+    <p>
+      A made up user, who inhibits the behaviours uncovered through user research, gives us an identity to keep in mind when designing the product.
+    </p>
+    <img src="./Vik_Kalkat_files/img/pp_persona.png" class="center-image inline-image" alt="Data">
+  </div>
+
+  <div class="robinhood-container project_container">
+    <h1>Competitor Analysis</h1>
+    <p>
+      Looking at existing solutions to similar problems provides the design with initial inspiration. Furthermore, this step can be valuable in identifying where other solutions went wrong so that we can take precaution to avoid making similar mistakes.
+      <br>
+      <br>
+      <h3>Smart Spot</h3>
+      <ol>
+        <li>Indepth analytics, like angle metrics and bar path, that are too complex for novice users. </li>
+        <li>Targeted at personal trainers, not the novice weight lifter.</li>
+        <li>Hardware comprises of 3d depth camera</li>
+        <li>Aesthetic overlay animations - can provide inspiration for our user interface.</li>
+      </ol>
+    </p>
+    <br>
+    <img src="./Vik_Kalkat_files/img/smartspot_2.png" class="center-image inline-image" alt="Robinhood Process Image">
+    <br>
+    <br>
+    <h3>Mirror - "The nearly invisible interactive home gym"</h3>
+    <ol>
+      <li>Provides similar experience to group fitness classes.</li>
+      <li>Solution for exercising at home.</li>
+      <li>Feedback comes from a live instructor on the other end, not a automated algorithm.</li>
+      <li>Enthusiastic user experience. Provides useful metrics for tracking user progtess.</li>
+    </ol>
+    </p>
+    <br>
+    <img src="./Vik_Kalkat_files/img/mirror.png" class="center-image inline-image" alt="Robinhood Process Image">
+  </div>
+
+  <div class="robinhood-container project_container">
+    <h1>Wireframing</h1>
+    <p>
+      <span style="font-weight:900">Exercise Bar (Top): </span>Provide navigation between different exercises. Allows user to know what is currently being performed.
+      <br>
+      <span style="font-weight:900">Progress Bar: </span>Keep user aware of their progress during each repition. Gives user the chance to foresee the end/beginning of a repitation so that they can safely bring their movement to a gradual stop.
+      <br>
+      <span style="font-weight:900">History of feedback messages: </span>Keep message on screen for extended period of time to seamlessly give the user time to digest the feedback. 
+      <br>
+      <span style="font-weight:900">User's Body: </span>Main workspace of the system. Provides user with real time video feedback of their movement with animation overlays to comment on their lifting posture. Most important part of the system, hence consuming majority of screen real-estate.
+      <br>
+      <span style="font-weight:900">Metrics bar: </span>Useful metrics to automatically keep track of during a set to reduce cognitive load.
+    </p>
+    <img src="./Vik_Kalkat_files/img/pp_wireframe.png" class="center-image inline-image" alt="Robinhood Process Image">
+  </div>
+
+
+
+<div class="robinhood-container project_container">
+    <h1>Hardware Considerations</h1>
+    <p>
+      The team spoke with various engineers working in the pose detection field. Those who are using purely computer vision (i.e. without wearables) showed that there are two commonly explored methods:
+      <br>
+      <br>
+      <h3>2D Pose Detection</h3>
+      <ol>
+        <li>2D cameras are cheaper than 3D cameras.</li>
+        <li>More software community support for 2D pose detection.</li>
+        <li>Interpolation may mean less accuracy, which is undesireable in a posture correction application for avoiding injury. Multiple cameras means a more bulky system setup.</li>
+        <li>Multiple cameras means a more bulky system setup</li>
+      </ol>
+    </p>
+    <br>
+    <h3>3D Pose Detection</h3>
+    <ol>
+      <li>Fewer number of parts.</li>
+      <li>More accurate pose detection.</li>
+      <li>3D camera is more expensive than 2D alternative.</li>
+    </ol>
+    </p>
+    <br>
+    <h3>Decision</h3>
+    <p>
+      The team decided to proceed using the 3D pose detection strategy. In the application of this project, high accuracy is very important because the user's safety is at stake. Also, the system is inteded to be installed in gyms, so a compact setup is benifical. 
+      <br>
+      The 3D pose detection solution will be implemented using Microsoft's Kinect sensor since this device has much higher online support than other 3D sensors that were considered, such as the Orbcec Persee or the Intel Realsense. Kinect applications are developed in .Net using the WPF (Windows Presentation Foundation) framework. Microsft has organized documentation for these software tools on their official website, which will be a very important resource during development.
+    </p>
+  </div>
+
+
+  <div class="robinhood-container project_container">
+    <h1>User Testing Procedure</h1>
+    <p>
+      One of the big challenges was creating a very intuitive feedback design. It is important that the feedback is easily understood by a user who has no knowledge on performing a particular exercise. The feedback must be understood quickly so that the user can exit the injury prone position as fast as possible to minimize potential of injury. Understanding the feedback should be effortless because the user will already be dedicating their congnitive resources towards performing the exercise. 
+      <br>
+      To design feedback that satisfies the mentioned requirements, rapid prototyping and user testing and performed so that the design can be constantly improved. The user testing procedure is outlined as follows:
+      <ol>
+      <li>Present test user with design mockup</li>
+      <li>"Can you explain what these design elements are communicating in terms of the user's posture?"</li>
+      <li>"How would you physically respond to this feedback during exercise?"</li>
+      <li>Does the user correctly interpret the meaning of each design element?</li>
+      <li>How much time does it take for the user to correctly interpret the feedback?</li>
+    </ol>
+    </p>
+  </div>
+
+  <div class="robinhood-container project_container">
+    <h1>Design Iterations</h1>
+    <p>
+      Below is a summary of some of the designs that were involved in the user testing.
+      <img src="./Vik_Kalkat_files/img/pp_designs.png" class="center-image inline-image" alt="Robinhood Process Image">
+      The more heavily focused design is shown below along with a very breif summary of its modifications.
+      <img src="./Vik_Kalkat_files/img/pp_design_evolution.png" class="center-image inline-image" alt="Robinhood Process Image">
+    </p>
+  </div>
+
+  <div class="robinhood-container project_container">
+    <h1>Final Outcome</h1>
+    <p>
+      <img src="./Vik_Kalkat_files/img/pp_final.png" class="center-image inline-image" alt="Robinhood Process Image">
+      <img src="./Vik_Kalkat_files/img/pp_final.gif" class="center-image inline-image" alt="Robinhood Process Image">
+      <p>
+        A small animation of the developed prototype for proof of concept. The system detects various body coordinates and performs geometric calculations. The calculated positions are compared with ideal form values to assess lifting technique and provide respective feedback.
+      </p>
+    </p>
+  </div>
+
+
+
+
+  <footer>
+		<div class="footer-home">
+			<h1>Contact</h1>
+			<p>Say Hello at
+				<a href="mailto:vik.kalkat@gmail.com">vik.kalkat@gmail.com</a> or send me a connection request on
+				<a href="https://www.linkedin.com/in/vik-kalkat-22211289/" target="_blank">LinkedIn</a>
+			</p>
+		</div>
+	</footer>
+
+  <div class="footer-robinhood"></div>
+    <div class="circCont">
+      <a class="circle-expand" id="btn-close-expand" data-animation="simpleRotate" data-remove="200" href="index.html" style="width: 0px;">
+      <div class="circle"></div>
+      <div class="btn-title">Close</div>
+      </a>
+      <a class="circle" id="btn-close" data-animation="simpleRotate" data-remove="200" href="index.html" style=""></a>
+  </div>
+
+
+<script src="./robinhood_files/jquery.min.js"></script>
+<script src="./robinhood_files/main.js"></script>
+<script>
+    $('#header_work #navigation li:nth-child(2) a').css({
+      "color": '#222222'
+    });
+
+    function initialWeb(i) {
+      var images = ["img/initial-web-stock-detail.png", "img/initial-web-search.png", "img/initial-web-list.png"];
+      document.getElementById('initial-web').src = images[i];
+      var links = document.getElementById('initial-web-link').childNodes;
+      for (j = 0; j < 3; j++) {
+        links[j * 2 + 1].classList.remove('active');
+        if (i == j)
+          links[j * 2 + 1].classList.add('active');
+      }
+    }
+
+    function prevMobile(i) {
+      var ios = ["img/previous-ios-stock-detail.png", "img/previous-ios-search.png", "img/previous-ios-list.png"];
+      var android = ["img/previous-android-stock-detail.png", "img/previous-android-search.png",
+        "img/previous-android-list.png"
+      ];
+      document.getElementById('prev-mobile-ios').src = ios[i];
+      document.getElementById('prev-mobile-android').src = android[i];
+      var links = document.getElementById('prev-mobile').childNodes;
+      for (j = 0; j < 3; j++) {
+        links[j * 2 + 1].classList.remove('active');
+        if (i == j)
+          links[j * 2 + 1].classList.add('active');
+      }
+    }
+
+    function newMobile(i) {
+      var ios = ["img/new-ios-stock-detail.png", "img/new-ios-search.png", "img/new-ios-list.png"];
+      var android = ["img/new-android-stock-detail.png", "img/new-android-search.png", "img/new-android-list.png"];
+      document.getElementById('new-mobile-ios').src = ios[i];
+      document.getElementById('new-mobile-android').src = android[i];
+      var links = document.getElementById('new-mobile').childNodes;
+      for (j = 0; j < 3; j++) {
+        links[j * 2 + 1].classList.remove('active');
+        if (i == j)
+          links[j * 2 + 1].classList.add('active');
+      }
+    }
+
+    $(window).scroll(function () {
+      if ($(window).scrollTop() + $(window).height() == $(document).height()) {
+        $('#btn-close').hide();
+        $('#btn-close-expand').width(100);
+      } else {
+        $('#btn-close-expand').width(0);
+        $('#btn-close').show();
+
+      }
+    });
+  </script>
+
+</body></html>
